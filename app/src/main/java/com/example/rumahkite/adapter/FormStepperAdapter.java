@@ -1,24 +1,19 @@
 package com.example.rumahkite.adapter;
 
 import android.content.Context;
-import android.os.Bundle;
 
 import androidx.annotation.IntRange;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
 
-import com.example.rumahkite.R;
 import com.example.rumahkite.fragment.Form2Fragment;
 import com.example.rumahkite.fragment.Form3Fragment;
 import com.example.rumahkite.fragment.Form4Fragment;
 import com.example.rumahkite.fragment.FormFragment;
-import com.example.rumahkite.model.FormModelStepper;
-import com.google.android.gms.location.ActivityRecognitionResult;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.adapter.AbstractFragmentStepAdapter;
 import com.stepstone.stepper.viewmodel.StepViewModel;
 
-import java.text.Normalizer;
 import java.util.ArrayList;
 
 public class FormStepperAdapter extends AbstractFragmentStepAdapter {
@@ -80,17 +75,28 @@ public class FormStepperAdapter extends AbstractFragmentStepAdapter {
         return 4;
     }
 
-/*    @NonNull
+    @NonNull
     @Override
     public StepViewModel getViewModel(@IntRange(from = 0)int position) {
+        StepViewModel.Builder builder = new StepViewModel.Builder(context);
 
-        return formStepperAdapters.add("");
-
-
-       *//* return new StepViewModel.Builder(context) //can be a CharSequence instead
-                .setTitle("Finish")
-                .create();*//*
-    }*/
+        switch (position) {
+            case 0:
+                builder.setTitle("Step1");
+                break;
+            case 1:
+                builder.setTitle("Step2");
+                break;
+            case 2:
+                builder.setTitle("Step3");
+                break;
+            case 3:
+                builder.setTitle("Step4");
+                break;
+            default:
+        }
+        return builder.create();
+    }
 
 
 }

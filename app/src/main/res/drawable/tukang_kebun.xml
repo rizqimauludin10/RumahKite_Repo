@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <group>
+        <path
+            android:fillColor="#4FCC89"
+            android:pathData="M35 29v3a2.006 2.006 0 0 1 -2 2h-28a2.006 2.006 0 0 1 -2-2v-3a2.006 2.006 0 0 1 2-2h12v2a2 2 0 0 0 4 0v-2h12a2.006 2.006 0 0 1 2 2z" />
+        <path
+            android:fillColor="#4FCC89"
+            android:pathData="M22 14a3 3 0 0 1 -6 0 3 3 0 0 1 6 0z" />
+        <path
+            android:fillColor="#4FCC89"
+            android:pathData="M33 34v23a4 4 0 0 1 -4 4h-20a4 4 0 0 1 -4-4v-23z" />
+        <path
+            android:fillColor="#4FCC89"
+            android:pathData="M61 40v10.12a6 6 0 0 1 -2.25 4.68l-6.5 5.2a2.013 2.013 0 0 1 -2.5 0l-6.5-5.2a6 6 0 0 1 -2.25-4.68v-10.12a2.006 2.006 0 0 1 2-2h6v5l2 5 2-5v-5h6a2.006 2.006 0 0 1 2 2z" />
+        <path
+            android:fillColor="#4FCC89"
+            android:pathData="M43 3v6a8.006 8.006 0 0 0 6 7.75 8.125 8.125 0 0 0 4 0 8.006 8.006 0 0 0 6-7.75v-6zm13 6a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3-3v-3h10z" />
+    </group>
+    <path
+        android:fillColor="#009143"
+        android:pathData="M33 26h-11v-9.38a4 4 0 1 0 -6 0v9.38h-11a3.009 3.009 0 0 0 -3 3v3a3.01 3.01 0 0 0 2 2.82v22.18a5 5 0 0 0 5 5h20a5 5 0 0 0 5-5v-22.18a3.01 3.01 0 0 0 2-2.82v-3a3.009 3.009 0 0 0 -3-3zm-14-14a2 2 0 1 1 -2 2 2.006 2.006 0 0 1 2-2zm1 5.86v11.14a1 1 0 0 1 -2 0v-11.14a3.641 3.641 0 0 0 2 0zm12 37.14h-19v2h19a3.009 3.009 0 0 1 -3 3h-20a3.009 3.009 0 0 1 -3-3h3v-2h-3v-20h26zm2-23a1 1 0 0 1 -1 1h-28a1 1 0 0 1 -1-1v-3a1 1 0 0 1 1-1h11v1a3 3 0 0 0 6 0v-1h11a1 1 0 0 1 1 1z" />
+    <path
+        android:fillColor="#009143"
+        android:pathData="M59 37h-5v-19.53a8.991 8.991 0 0 0 6-8.47v-6a1 1 0 0 0 -1-1h-16a1 1 0 0 0 -1 1v6a8.991 8.991 0 0 0 6 8.47v19.53h-5a3.009 3.009 0 0 0 -3 3v10.12a6.959 6.959 0 0 0 2.63 5.46l6.5 5.2a2.979 2.979 0 0 0 3.74 0l6.5-5.2a6.959 6.959 0 0 0 2.63-5.46v-10.12a3.009 3.009 0 0 0 -3-3zm-15-28v-5h14v5a7 7 0 0 1 -14 0zm8 8.94v24.87l-1 2.5-1-2.5v-24.87a8.363 8.363 0 0 0 2 0zm8 32.18a4.952 4.952 0 0 1 -1.88 3.9l-6.5 5.2a0.992 0.992 0 0 1 -1.24 0l-6.5-5.2a4.952 4.952 0 0 1 -1.88-3.9v-10.12a1 1 0 0 1 1-1h5v4a0.937 0.937 0 0 0 0.07 0.37 l2 5a1 1 0 0 0 1.86 0l2-5a0.937 0.937 0 0 0 0.07-0.37v-4h5a1 1 0 0 1 1 1z" />
+    <path
+        android:fillColor="#009143"
+        android:pathData="M56 5h-10a1 1 0 0 0 -1 1v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4v-3a1 1 0 0 0 -1-1zm-1 4a2.006 2.006 0 0 1 -2 2h-4a2.006 2.006 0 0 1 -2-2v-2h8z" />
+</vector>

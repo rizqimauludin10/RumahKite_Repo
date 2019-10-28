@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/texticon"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tukang Atap"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTotalHari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:text="Total Hari" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:clipToPadding="false">
+
+            <EditText
+                android:id="@+id/etTotalHari"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/form_input"
+                android:ems="8"
+                android:hint="hari"
+                android:scrollHorizontally="false"
+                android:textSize="14sp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvkali"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="x"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvHargaHari"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Rp. 130.000"
+                android:textAlignment="textStart"
+                android:textColor="#009143"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTanggal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Tanggal Pengerjaan"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etTanggal2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/form_input"
+                android:ems="8"
+                android:scrollHorizontally="false"
+                android:textSize="14sp"
+                android:hint="10/10/2019"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDesc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Deskripsi"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/form_input"
+                android:gravity="top"
+                android:hint="Deksripsi pemesanan"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="10dp"
+                android:scrollHorizontally="false"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAlamat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Detail Alamat"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etAlamat2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/form_input"
+                android:gravity="top"
+                android:hint="Alamat"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="10dp"
+                android:scrollHorizontally="false"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

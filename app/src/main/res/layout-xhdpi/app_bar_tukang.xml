@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/inputtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/backTukang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backtukang"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_toEndOf="@id/backTukang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"
+            android:layout_marginLeft="120dp"
+            android:text="Tukang"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/text"
+            fontPath="font/TitilliumWeb-Bold.ttf"
+            tools:ignore="MissingPrefix" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

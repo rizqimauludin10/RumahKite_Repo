@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.stepstone.stepper.StepperLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/formstepperlayout"
+    tools:context=".TukangFormActivity"
+    android:background="@color/white"
+    app:ms_showBottomNavigation="true"
+    app:ms_stepperFeedbackType="tabs"
+    app:ms_activeStepColor="@color/basecolor"
+    app:ms_stepperType="tabs">
+
+
+</com.stepstone.stepper.StepperLayout>

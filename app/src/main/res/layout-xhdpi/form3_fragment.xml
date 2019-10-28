@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/text"
+            android:text="Detail Alamat" />
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/form_input"
+            android:hint="Masukkan alamat"
+            android:lines="5"
+            android:scrollHorizontally="false"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:textSize="14sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3F4247</color>
+    <color name="background_bar">#630A2E</color>
+    <color name="background_barshadow">#3E080D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="basecolor">#2ECA6A</color>
+    <color name="texticon">#00BA56</color>
+    <color name="tittlebar">#484848</color>
+    <color name="text">#484848</color>
+    <color name="search">#878787</color>
+    <color name="headingone">#484848</color>
+    <color name="newsgradone">#33D980</color>
+    <color name="newsgradtwo">#009143</color>
+    <color name="tabnoneaktif">#979797</color>
+
+
+</resources>
+
+

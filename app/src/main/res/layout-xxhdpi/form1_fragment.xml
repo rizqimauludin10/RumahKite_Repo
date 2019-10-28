@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/texticon"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/captionform1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perbaikan / Instalasi"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/tv_harga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. 130.000"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@id/hr" />
+
+        <TextView
+            android:id="@+id/hr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/hr"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvHari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/text"
+            android:text="Jumlah Hari" />
+
+        <EditText
+            android:id="@+id/etHari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/form_input"
+            android:hint="Masukkan jumlah hari"
+            android:textSize="14sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pengerjaan"
+            android:textColor="@color/text"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_input"
+            android:layout_below="@id/tvDate"
+            android:hint="Tanggal"
+            android:focusable="false"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:padding="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dateIc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calendar"
+                android:layout_gravity="right"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="10dp" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/text"
+            android:text="Deskripsi" />
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/form_input"
+            android:hint="Deksripsi pemesanan"
+            android:lines="5"
+            android:scrollHorizontally="false"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:textSize="14sp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

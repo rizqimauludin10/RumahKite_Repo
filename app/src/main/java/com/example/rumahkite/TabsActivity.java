@@ -31,8 +31,8 @@ public class TabsActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabLayout);
 
         adapter = new TabAdapter(getSupportFragmentManager());
-        adapter.addFragment(new TabMapsFragment(), "Tampilan Maps");
         adapter.addFragment(new TabListFragment(), "Tampilan List");
+        adapter.addFragment(new TabMapsFragment(), "Tampilan Maps");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

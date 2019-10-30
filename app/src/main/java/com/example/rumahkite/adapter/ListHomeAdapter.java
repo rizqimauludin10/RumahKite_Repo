@@ -45,7 +45,7 @@ public class ListHomeAdapter extends RecyclerView.Adapter<ListHomeAdapter.ListVi
                 .load(home.getFoto())
                 .apply(new RequestOptions())
                 .into(holder.imgHome);
-        holder.tvElectry.setText(home.getElectric());
+       /* holder.tvElectry.setText(home.getElectric());
         holder.tvFloor.setText(home.getFloor());
         holder.tvGarden.setText(home.getGarden());
         holder.tvLandsize.setText(home.getLandsize());
@@ -68,7 +68,7 @@ public class ListHomeAdapter extends RecyclerView.Adapter<ListHomeAdapter.ListVi
             public void onClick(View v) {
                 onItemClickCallBack.onItemClicked(listHome.get(holder.getAdapterPosition()));
             }
-        });
+        });*/
     }
 
     @Override
@@ -84,7 +84,7 @@ public class ListHomeAdapter extends RecyclerView.Adapter<ListHomeAdapter.ListVi
 
         ListViewHolder(View itemView) {
             super(itemView);
-            tvSince = itemView.findViewById(R.id.tv_since);
+            /*tvSince = itemView.findViewById(R.id.tv_since);
             tvGarden = itemView.findViewById(R.id.tv_garden);
             tvFloor = itemView.findViewById(R.id.tv_floor);
             tvElectry = itemView.findViewById(R.id.tv_electry);
@@ -102,7 +102,9 @@ public class ListHomeAdapter extends RecyclerView.Adapter<ListHomeAdapter.ListVi
             tvJarak = itemView.findViewById(R.id.jarak);
             tvSale = itemView.findViewById(R.id.sale);
             tvKecamatan = itemView.findViewById(R.id.kecamatan);
-            tvDesc = itemView.findViewById(R.id.tv_deskripsi);
+            tvDesc = itemView.findViewById(R.id.tv_deskripsi);*/
+
+            imgHome = itemView.findViewById(R.id.img_item_photo);
         }
     }
 

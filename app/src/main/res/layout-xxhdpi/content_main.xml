@@ -225,6 +225,13 @@
 
             </LinearLayout>
 
+            <!--       <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="5dp"
+                       android:background="#EBEBEB">
+
+                   </LinearLayout>-->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -387,6 +394,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
                 android:paddingLeft="20dp"
                 android:orientation="vertical">
 
@@ -458,19 +466,30 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/news_bg"
-                android:layout_marginTop="30dp"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rvNews"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:clipToPadding="false"
                     android:paddingStart="20dp"
-                    android:clipToPadding="false">
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
                 </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    fontPath="font/TitilliumWeb-Regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/bacaberita"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
 
             </LinearLayout>
 

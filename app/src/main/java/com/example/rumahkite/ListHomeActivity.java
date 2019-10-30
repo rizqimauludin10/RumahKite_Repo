@@ -14,8 +14,6 @@ import java.util.ArrayList;
 
 public class ListHomeActivity extends AppCompatActivity {
 
-
-
     private RecyclerView rvHome;
     private ArrayList<Home> list = new ArrayList<>();
 
@@ -30,6 +28,13 @@ public class ListHomeActivity extends AppCompatActivity {
         list.addAll(HomeDummy.getListData());
         showRecycler();
 
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        showRecycler();
     }
 
     private void showRecycler() {

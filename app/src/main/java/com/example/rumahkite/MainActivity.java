@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Bthome.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(MainActivity.this, ListHomeActivity.class);
+                intent = new Intent(MainActivity.this, TabsActivity.class);
                 startActivity(intent);
             }
         });
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void run() {
                 handler.post(runnable);
             }
-        }, 3000, 3000);
+        }, 4000, 4000);
 
         indicator.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
